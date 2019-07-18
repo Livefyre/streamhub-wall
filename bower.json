@@ -1,6 +1,6 @@
 {
   "name": "streamhub-wall",
-  "version": "7.0.6",
+  "version": "7.0.8",
   "main": [
     "./src/main.js"
   ],
@@ -11,7 +11,7 @@
     "livefyre-theme-styler": "git://github.com/livefyre/livefyre-theme-styler.git#1.1.0",
     "rework": "markdoten/rework#0.21.2",
     "streamhub-input": "Livefyre/streamhub-input#0.12.0",
-    "streamhub-sdk": "git://github.com/Livefyre/streamhub-sdk.git#~2.37.10"
+    "streamhub-sdk": "git://github.com/Livefyre/streamhub-sdk.git#~2.37.14"
   },
   "devDependencies": {
     "almond": "~0.2.9",
@@ -36,7 +36,7 @@
     "livefyre-theme-styler": "~1.4.0",
     "mout": "0.11.1",
     "rework": "0.21.2",
-    "streamhub-sdk": "~2.37.10",
+    "streamhub-sdk": "~2.37.14",
     "streamhub-share": "0.5.2",
     "streamhub-ui": "0.4.6",
     "view": "1.4.1"
