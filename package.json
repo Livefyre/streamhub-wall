@@ -14,7 +14,7 @@
     "http-server": "*",
     "jasmine-core": "^2.3.4",
     "jasmine-jquery": "^2.1.0",
-    "jsdoc": "git://github.com/jsdoc3/jsdoc.git",
+    "jsdoc": "git://github.com/jsdoc/jsdoc.git#3.6.3",
     "karma": "^0.12.35",
     "karma-cajon": "0.0.1",
     "karma-chrome-launcher": "^0.1.12",
