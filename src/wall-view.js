@@ -33,6 +33,7 @@ define([
     this._animate = opts.animate === undefined ? true : opts.animate;
     this._pickColumnIndex = opts.pickColumn || MediaWallView.columnPickers.roundRobin;
     this._constrainAttachmentsByWidth = opts.constrainAttachmentsByWidth || false;
+    this._modal = opts.modal;
 
     this.debouncedRelayout = debounce(function () {
       var numColumnsChanged = self.fitColumns();
@@ -338,7 +339,7 @@ define([
       comparator: this.comparator,
       hideSocialBrandingWithRights: this.opts.hideSocialBrandingWithRights,
       maxVisibleItems: this._getMaxVisibleItemsForColumn(),
-      modal: this.modal,
+      modal: this._modal,
       stash: this.more
     });
     columnView.$el.addClass(this.columnClassName);
